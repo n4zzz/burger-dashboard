@@ -8,3 +8,23 @@ body {
     margin: 0;
     overflow: hidden;
 }
+
+main, article {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card {
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: rgb(255, 255, 255, 0.15);
+    backdrop-filter: blur(13px);
+    height: 600px;
+    width: 1200px;
+    border-radius: 20px;
+}
