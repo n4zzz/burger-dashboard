@@ -1,0 +1,10 @@
+body {
+    background-image: url(burger.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    min-height: 100vh;
+    min-width: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
