@@ -13,7 +13,7 @@
 .pacifico-regular {
   font-family: "Pacifico", cursive;
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
 }
 
 html, body {
@@ -45,6 +45,7 @@ html, body {
     border-radius: 25px;
 }
 
+/*Descriptions*/
 .description-side {
     width: 50%;
     display: flex;
@@ -58,6 +59,19 @@ html, body {
     letter-spacing: 0.1rem;
 }
 
+.captions {
+    display: flex;
+    min-height: auto;
+}
+
+.straight-line {
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    height: 5rem; /*cannot use % because parent is min-height, growing*/
+    border-radius: 0.5rem;
+}
+
+/*Image*/
 .image-side {
     width: 50%;
 }
