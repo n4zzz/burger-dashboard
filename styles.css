@@ -47,7 +47,7 @@ html, body {
 
 /*Descriptions*/
 .description-side {
-    width: 50%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     margin-left: 9%;
@@ -110,7 +110,17 @@ html, body {
 
 /*Image*/
 .image-side {
-    width: 50%;
+    max-width: 50%;
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+.image-side img {
+    height: auto;
+    width: 155%;
+    position: relative;
+    bottom: 5rem;
+    right: 2rem;
 }
 
 .buttons {
@@ -183,3 +193,4 @@ html, body {
         margin: 0;
     }
 }
+
