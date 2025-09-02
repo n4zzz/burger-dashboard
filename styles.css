@@ -177,3 +177,9 @@ html, body {
 .footer h3, p {
     letter-spacing: 0.05rem;
 }
+
+@media (max-width: 600px) {
+    .footer {
+        margin: 0;
+    }
+}
