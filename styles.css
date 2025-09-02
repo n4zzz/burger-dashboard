@@ -111,3 +111,37 @@ html, body {
 .image-side {
     width: 50%;
 }
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.buttons button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    /*Cannot % because parent height reach max height*/
+    margin: 0;
+    padding: 0;
+    height: 2rem;
+    width: 8rem;
+    font-family: 'Cabin';
+    font-size: large;
+    border-radius: 1.25rem;
+    letter-spacing: 0.02rem;
+    /*Transition calls :hover function for example background color*/
+    transition: background-color 0.2s ease;
+}
+
+@media (max-width: 600px) {
+    .buttons {
+        flex-direction: column;
+    }
+}
+
+.buttons button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
